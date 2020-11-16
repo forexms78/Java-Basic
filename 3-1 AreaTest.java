@@ -4,7 +4,7 @@ public class AreaTest {
 		double radius, area;
 		radius = 5.0;
 		area = 3.1411592 * radius * radius;
-		System.out.println("¿øÀÇ ¸éÀûÀº " + area);
+		System.out.println("Â¿Ã¸Ã€Ã‡ Â¸Ã©Ã€Ã»Ã€Âº " + area);
 		
 		//float temperature =  12.3;
 		float temperature = (float) 12.3;
