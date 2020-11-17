@@ -15,6 +15,9 @@ public class array2SumAverage {
 			{
 				total += arr[i][j];
 				average = (float)total /  (arr.length * arr[0].length);
+				
+				//  (float)로 선언해야함 값이 제대로 안나옴
+				// 평균은 2차배열의 갯수를 알고싶으면 가로안의 형식으로 나타내면됨
 			}
 		}
 		
